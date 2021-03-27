@@ -119,3 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+#when login is required for a page and someone tries to enter such a page, they will be
+#directed to the login page
+LOGIN_URL = '/login'

@@ -1,8 +1,7 @@
 from django.forms import ModelForm
 from .models import Todo
-
+#HTML form for TODO
 class TodoForm(ModelForm):
     class Meta:
         model = Todo
-        fields = ['title','memo','important'] #feilds that are being passed from the data base into 
-    
+        fields = ['title','memo','important']
